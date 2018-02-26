@@ -1,3 +1,3 @@
 Hi.
 
-This is Introduction lesson on R and R Studio.
+This is Introduction lesson on R and R Studio! 
