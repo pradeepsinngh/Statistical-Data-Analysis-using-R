@@ -1,4 +1,9 @@
-# H.W.3
+# Author: Pradeep Singh
+# Email: pradeepsingh7890@live.com
+
+#######################
+#      Problem 2      #
+#######################
 
 # load the data
 #HData <- read.table("hdata.txt", header = TRUE)
