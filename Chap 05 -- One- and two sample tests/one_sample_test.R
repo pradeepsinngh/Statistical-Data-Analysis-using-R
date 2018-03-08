@@ -1,4 +1,5 @@
-# H.W.4 -- STAT 596
+# Author: Pradeep Singh
+# Email: pradeepsingh7890@live.com
 
 # read the file
 health <- read.table(file.choose(), header=TRUE)  
