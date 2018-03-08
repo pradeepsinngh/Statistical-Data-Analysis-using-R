@@ -4,6 +4,7 @@
 #######################
 #      Problem 1      #
 #######################
+
 # load the data
 # HData <- read.table("health_dataset.txt", header = TRUE)
 HData <- read.table(file.choose(), header = TRUE)
