@@ -2,7 +2,7 @@
 # Email: pradeepsingh7890@live.com
 
 # load the data
-data <- read.csv("/Users/pradeepsingh/Desktop/MLB2015data.csv", header = TRUE)
+data <- read.csv("/MLB2015data.csv", header = TRUE)
 attach(data)
 library(car)
 
