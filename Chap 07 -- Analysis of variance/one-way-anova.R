@@ -46,12 +46,14 @@ wilcox.test(HR, mu=0, data = cleandata) # Wilcoxon test
 # about the equality of means. So, we can say that the means for the variable
 # HR are not equal.
 
-  # Test equality of variances 
-  # H_0: sigma(1) = sigma(2) = ... = sigma(a) (Null Hypotheses)
-  # H_1: sigma(i) != sigma(j) (Alternate Hypotheses)
-  # for at least one pair (i,j)
+# ---------------------------------------------
+
+# Test equality of variances 
+# H_0: sigma(1) = sigma(2) = ... = sigma(a) (Null Hypotheses)
+# H_1: sigma(i) != sigma(j) (Alternate Hypotheses)
+# for at least one pair (i,j)
   
-  bartlett.test(HR ~ type, data=cleandata)
+bartlett.test(HR ~ type, data=cleandata)
 
 # As p-value is 0.00369, which is less than 0.05, therefore we reject the
 # null hypothesis and it seems that the alternate hypothesis is plausible.
@@ -61,9 +63,10 @@ wilcox.test(HR, mu=0, data = cleandata) # Wilcoxon test
 # same or equal, the variances also tends to diverge from equality, which is 
 # what we got in bartlett.test results. This seems plausible.
 
+# -------------------------------------------------------------
 
-  # make a stripchart
-  group.means <- tapply(HR, type, mean)
+# make a stripchart
+group.means <- tapply(HR, type, mean)
 group.sds <- tapply(HR, type, sd)
 group.sizes <- tapply(HR, type, length)
 se <- group.sds / sqrt(group.sizes)
