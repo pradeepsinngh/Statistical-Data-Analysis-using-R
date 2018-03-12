@@ -59,10 +59,6 @@ bartlett.test(HR ~ type, data=cleandata)
 # null hypothesis and it seems that the alternate hypothesis is plausible.
 # Therefore, we conclude that equality of variances does not exist.
 
-# Conclusion in part B seems to be correct as means for the variable HR are not 
-# same or equal, the variances also tends to diverge from equality, which is 
-# what we got in bartlett.test results. This seems plausible.
-
 # -------------------------------------------------------------
 
 # make a stripchart
@@ -74,3 +70,4 @@ stripchart(HR ~ type, method="jitter", jitter=0.05, pch=16, vert=T,
            xlab="Player Positions", ylab="Home Runs" )
 arrows(1:3, group.means-se, 1:3, group.means+se, angle=90, code=3, length=0.1 )
 lines(1:3, group.means, pch=4, type = "b", cex = 2, col = "red")
+
