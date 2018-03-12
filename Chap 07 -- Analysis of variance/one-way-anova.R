@@ -1,5 +1,7 @@
+# Author: Pradeep Singh
+# Email: pradeepsingh7890@live.com
 
-  # load the data
+# load the data
 data <- read.csv("/Users/pradeepsingh/Desktop/MLB2015data.csv", header = TRUE)
 attach(data)
 library(car)
@@ -12,15 +14,15 @@ data.h <- ifelse((Pos == "LF") | (Pos == "CF") | (Pos == "RF"), "Outfielders",
 type = factor(data.h)
 levels(type)
 
-  # preparing (cleaning) data for aov func
-  cleandata = data.frame(HR, type)
+# preparing (cleaning) data for aov func
+cleandata = data.frame(HR, type)
 
-  # F-test for equality of means
-  # One-way ANOVA model
-  # H_0: mu(1) = mu(2) = ... = mu(a) (Null Hypotheses)
-  # H_1: mu(i) != mu(j) for at least one pair (i,j) (Alternate Hypotheses)
+# F-test for equality of means
+# One-way ANOVA model
+# H_0: mu(1) = mu(2) = ... = mu(a) (Null Hypotheses)
+# H_1: mu(i) != mu(j) for at least one pair (i,j) (Alternate Hypotheses)
   
-  analysis = aov(HR ~ type, data= cleandata)
+analysis = aov(HR ~ type, data= cleandata)
 summary(analysis)
 
 # As p-value for the test is 4.09e-07, which is less than 0.05, therefore 
