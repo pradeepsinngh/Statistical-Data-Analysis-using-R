@@ -1,5 +1,7 @@
+# Author: Pradeep Singh
+# Email: pradeepsingh7890@live.com
 
-  # load the data
+# load the data
 data <- read.csv("/Users/pradeepsingh/Desktop/MLB2015data.csv", header = TRUE)
 attach(data)
 library(car)
@@ -12,15 +14,15 @@ data.h <- ifelse((Pos == "LF") | (Pos == "CF") | (Pos == "RF"), "Outfielders",
 type = factor(data.h)
 levels(type)
 
-  # preparing (cleaning) data for aov func
-  cleandata = data.frame(HR, type)
+# preparing (cleaning) data for aov func
+cleandata = data.frame(HR, type)
 
-  # F-test for equality of means
-  # One-way ANOVA model
-  # H_0: mu(1) = mu(2) = ... = mu(a) (Null Hypotheses)
-  # H_1: mu(i) != mu(j) for at least one pair (i,j) (Alternate Hypotheses)
+# F-test for equality of means
+# One-way ANOVA model
+# H_0: mu(1) = mu(2) = ... = mu(a) (Null Hypotheses)
+# H_1: mu(i) != mu(j) for at least one pair (i,j) (Alternate Hypotheses)
   
-  analysis = aov(HR ~ type, data= cleandata)
+analysis = aov(HR ~ type, data= cleandata)
 summary(analysis)
 
 # As p-value for the test is 4.09e-07, which is less than 0.05, therefore 
@@ -44,12 +46,14 @@ wilcox.test(HR, mu=0, data = cleandata) # Wilcoxon test
 # about the equality of means. So, we can say that the means for the variable
 # HR are not equal.
 
-  # Test equality of variances 
-  # H_0: sigma(1) = sigma(2) = ... = sigma(a) (Null Hypotheses)
-  # H_1: sigma(i) != sigma(j) (Alternate Hypotheses)
-  # for at least one pair (i,j)
+# ---------------------------------------------
+
+# Test equality of variances 
+# H_0: sigma(1) = sigma(2) = ... = sigma(a) (Null Hypotheses)
+# H_1: sigma(i) != sigma(j) (Alternate Hypotheses)
+# for at least one pair (i,j)
   
-  bartlett.test(HR ~ type, data=cleandata)
+bartlett.test(HR ~ type, data=cleandata)
 
 # As p-value is 0.00369, which is less than 0.05, therefore we reject the
 # null hypothesis and it seems that the alternate hypothesis is plausible.
@@ -59,9 +63,10 @@ wilcox.test(HR, mu=0, data = cleandata) # Wilcoxon test
 # same or equal, the variances also tends to diverge from equality, which is 
 # what we got in bartlett.test results. This seems plausible.
 
+# -------------------------------------------------------------
 
-  # make a stripchart
-  group.means <- tapply(HR, type, mean)
+# make a stripchart
+group.means <- tapply(HR, type, mean)
 group.sds <- tapply(HR, type, sd)
 group.sizes <- tapply(HR, type, length)
 se <- group.sds / sqrt(group.sizes)
