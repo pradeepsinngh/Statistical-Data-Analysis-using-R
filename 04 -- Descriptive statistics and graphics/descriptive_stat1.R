@@ -37,4 +37,3 @@ barplot(table(HData$SBP.H, HData$GENDER), col=c("blue", "red"), legend = levels(
 # Clustered bar charts
 barplot(table(HData$SBP.H, HData$GENDER), col=c("blue", "red"), legend = levels(SBP.H), 
         beside = TRUE, main = "Systolic Blood Pressure level in Male & Female", font.main = 4)
-
