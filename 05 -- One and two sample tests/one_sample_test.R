@@ -36,7 +36,7 @@ var.test (SBP.M, SBP.F)
 # In conclusion, there is no significant difference between the two variances. So, we can
 # say that the equal SD (variance) assumption is appropriate.
 
-########################################################
+##################################################################
 
 # b) HDL
 
@@ -65,7 +65,7 @@ var.test (HDL.M, HDL.F)
 # In conclusion, there is significant difference between the two variances. So, we can
 # say that the equal SD (variance) assumption is not appropriate in this case.
 
-##########################################################
+#####################################################################
 
 # c) CHOL
 
@@ -94,9 +94,9 @@ var.test (CHOL.M, CHOL.F)
 # In conclusion, there is no significant difference between the two variances. So, we can
 # say that the equal SD (variance) assumption is appropriate.
 
-##########################################
+############################################################
 # Problem 2
-###########################################
+############################################################
 
 # Is the popluation mean of SBP greater than of DBP?
 
