@@ -44,7 +44,6 @@ freqtable <- table(HData$SBP.H, HData$DBP.H)
 rfreq <- prop.table(freqtable, margin = 2) * 100
 round(rfreq, 3)
 
-
 freqtable1 <- table(HData$SBP.H, HData$DBP.H)
 rfreq1 <- prop.table(freqtable, margin = 1) * 100
 round(rfreq1, 3)
