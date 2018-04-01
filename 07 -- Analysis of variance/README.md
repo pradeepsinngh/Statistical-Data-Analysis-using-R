@@ -1,10 +1,10 @@
 # Dataset:
 
--- MLB2015data.csv
+* MLB2015data.csv
 
 The given data set "MLB2015data.csv" consist of following variables: Player name, Team, Position, Home Runs, etc.
 
--- cleanPIMA.txt
+* cleanPIMA.txt
 
 The National Institute of Diabetes and Digestive and Kidney Diseases conducted a study on 768 adult female Pima Indians (at least 21 years old) living near Phoenix. The following variables were recorded: regnancies, glucose, diastolic, triceps, insulin, bmi, age, test.
 
