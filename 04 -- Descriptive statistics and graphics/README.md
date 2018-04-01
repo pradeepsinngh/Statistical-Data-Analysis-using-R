@@ -16,3 +16,17 @@ The health_dataset.txt contains the following variables: age, gender,(childhood)
 * Create a 2-by-2 frequency table for SBP.H (rows) and DBP.H (columns). 
 * What percent of subjects that have high systolic blood pressure also have high diastolic blood pressure? 
 * What percent of subjects that have normal systolic blood pressure also have normal diastolic blood pressure? Obtain a 2-by-2 table that shows these percentages.
+
+# Problem 3: descriptive_stat3.R)
+-- (Use the dataset mycars in the following questions.)
+* Create a new data set called mycars that only includes mpg, hp, wt, and am. Replace the am column (transmission type)with a  column called transmission with entries “automatic” or “manual”. 
+* Define transmission as a factor with the appropriate labels. Rename the wt column and call it weight .In other words, clean and relabel data.
+* Create histograms of the variables mpg, hp, and weight.
+* Provide summary statistics for the variables in the dataset mycars. Provide also summary statistics by transmission type.  
+* Calculate the sample standard deviation of each variable by transmission type.
+* Export the output of the summary statistics to a .txt file.
+* Split the hp data by transmission type.
+* Sort the data by transmission type and then by mpg (increasing order).
+* Consider a simple linear regression model with y=hp and x=mpg. Plot the (x,y)-pairs together with the Least-Squares line.
+* For each type of transmission (manual vs automatic), plot the two regression lines in the same plot. Make the pairs for manual cars blue and those for automatic cars red.
+* Export the regression plot in part to a .pdf file.
