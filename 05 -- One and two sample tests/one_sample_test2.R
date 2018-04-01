@@ -101,13 +101,3 @@ wilcox.test(log_insulin.N,log_insulin.P, X=0,  conf.level= 0.95, conf.int = TRUE
 # 2. There should be independence within samples and mutual independence between samples.
 # 3. Measurement scale is at least ordinal.
 # ====================================================================
-#
-
-
-
-
-
-
-
-
-#-----------------------------------------
