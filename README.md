@@ -1,3 +1,3 @@
-# Introduction to Statistics with R (for data science!)
+# Introduction to Data Science!
 
-Introduction to Statistics with R (for data science!)
+Introduction to data science with R.
