@@ -29,4 +29,4 @@ The health_dataset.txt contains the following variables: age, gender,(childhood)
 * Sort the data by transmission type and then by mpg (increasing order).
 * Consider a simple linear regression model with y=hp and x=mpg. Plot the (x,y)-pairs together with the Least-Squares line.
 * For each type of transmission (manual vs automatic), plot the two regression lines in the same plot. Make the pairs for manual cars blue and those for automatic cars red.
-* Export the regression plot in part (I) to a .pdf file.
+* Export the regression plot in part to a .pdf file.
