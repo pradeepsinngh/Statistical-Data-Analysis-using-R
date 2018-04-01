@@ -96,8 +96,3 @@ wilcox.test(log_insulin.N,log_insulin.P, X=0,  conf.level= 0.95, conf.int = TRUE
 # and positive test group is not zero. Therefore, we can say that there is 
 # difference in location paramter of of positive and negative test groups.
 
-# Assumptions for Non-paramteric test:
-# 1. Samples should be random from populations
-# 2. There should be independence within samples and mutual independence between samples.
-# 3. Measurement scale is at least ordinal.
-# ====================================================================
