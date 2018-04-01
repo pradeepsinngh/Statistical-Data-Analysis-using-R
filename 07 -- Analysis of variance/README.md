@@ -15,6 +15,8 @@ The National Institute of Diabetes and Digestive and Kidney Diseases conducted a
 * Create a stripchart that shows the observations, the sample means, and a range that covers the observations that are one (sample) standard deviation from the (sample) mean.
 
 # Problem: one-way-anova2.R
-*
-*
-*
+* Model the data diastolic by group using a one-way anova model and test the hypothesis of equality of means for the variable diastolic. Interpret the results.
+* Is the equality of variances assumption valid?  Perform an appropriate test and interpret the results. Comment on the validity of the conclusions in part (A).
+* Use a non-parametric test to test if the distribution of diastolic is the same for each group. Interpret the results and discuss their validity.
+* Create a stripchart that shows the observations, the sample means, and 95% CIs for the (population) group means.
+* Construct and interpret 95% confidence intervals for all pairwise mean differences. Assume equal variances. Discuss any possible issues with these confidence intervals.
