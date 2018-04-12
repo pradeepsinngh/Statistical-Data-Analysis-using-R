@@ -1,8 +1,8 @@
 # Author: Pradeep Singh
 # Email: pradeepsingh7890@live.com
 
-# Use the built-in dataset mtcars in R
-# Run ?mtcars to get the data set description
+# Use the built-in dataset mtcars in R.
+# Run "?mtcars" in RStudio console to get the data set description.
 
 mtcars
 attach(mtcars)
