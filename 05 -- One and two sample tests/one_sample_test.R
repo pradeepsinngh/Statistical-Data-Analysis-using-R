@@ -134,3 +134,4 @@ power.t.test(n=NULL, delta = 5, power = 0.90, type = "one.sample",
 
 # Conclusion: To detect a difference of 5 HDL points in female HDL with a power of 0.90, 
 # we need a sample size of about 126.2754 ~ 127.
+
