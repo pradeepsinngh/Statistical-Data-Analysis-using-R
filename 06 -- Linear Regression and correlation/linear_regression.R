@@ -1,5 +1,3 @@
-# STAT 596 -- H.W.6
-# Author: Pradeep Singh
 
 # read the data
 mlb <- read.csv(file="MLB2015data.csv", header=TRUE)
