@@ -16,3 +16,4 @@ Introduction to data science with R.
  * [Linear Models](https://github.com/pradeepsinngh/Data-Science-with-R/tree/master/10%20--%20Linear%20Models)
  * [Logistic regression models](https://github.com/pradeepsinngh/Data-Science-with-R/tree/master/11%20--%20Logistic%20regression%20models)
  * [Numerical methods for optimization and integration](https://github.com/pradeepsinngh/Data-Science-with-R/tree/master/12%20--%20Numerical%20methods%20for%20optimization%20and%20integration)
+
