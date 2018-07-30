@@ -7,7 +7,7 @@ Reading data in R is fairly simple and staright forward. R provides you function
 # read.table -- funcation to read text file
 # mydata.csv -- address of your data files inside the " "
 # header     -- TRUE/ FALSE if you want to keep heading of your
-#               coloumns and vice-versa
+#               columns and vice-versa
 
 mydata <- read.table("/mydata.csv", header=TRUE)
 ```
