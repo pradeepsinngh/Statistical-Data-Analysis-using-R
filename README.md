@@ -1,7 +1,6 @@
-# Introduction to Data Science
+# Introduction to Statistical Data Analysis using R
 
-Introduction to data science with R.
-
+This repo contains various methods, test, models used in Statistical Data Analysis. This repo is work in progress.
 # Table of contents
 
  * [Introduction to R](https://github.com/pradeepsinngh/Data-Science-with-R/tree/master/01%20--%20Introduction)
